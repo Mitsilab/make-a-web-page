@@ -1,0 +1,187 @@
+<!DOCTYPE>
+<html>
+<h1><b><><em>Intro to Programming Nanodegree</em><></b></h1>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="timmy.css">
+</head>
+
+<body>
+  <div>
+    <h2><div class="lesson"><p>Lesson 1</p></h2>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>WWW-Main Content</b>
+      </div>
+      <div class="concept-description">
+        <p>
+          1.HTML- Hypertext markup language<br>
+          2.Hyperlinks</p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        <b>Major Pieces of the Web</b>
+      </div>
+      <div class="concept-description"><p>   
+          1.You (your computer and browser)<br>
+          2.The Internet<br>
+          3.Servers (http)<br>
+
+          <em>...your computer requests information(http) through the internet to a server that find the appropriate files and sends them back through the internet to your computer/browser.</em></P>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>Made Up Of</b>
+      </div>
+      <div class="concept-description">
+         1.Text content-what you see<br>
+         2.Markup-what it looks like<br>
+         3.References to other documents-e.g. images, videos<br>
+         4.Links to other Pages</p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>HTML Markup</b>
+      </div>
+      <div class="concept-description">
+        1.Tags<br>
+         -a.<<em>name</em>> opening tag<br>
+         -b.<<em>/name></em> closing tag<br>
+          ...<em>example</em> (< <em>name></em> contents
+              < /<em>name</em>>)<br>                   
+          <b>Element</b></b>
+          examples of names: b=<b>bold</b>, em=<em>emphasis/italics</em></p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>HTML Attributes</b>
+      </div>
+      <div class="concept-description">
+        1.Anchor<br>    
+        < a> = link</a><br>
+           ... <em>example</em>:
+           < a href="www.reddit.com">derp< /a><br>
+           ---This website is <a href="www.udacity.com">my favorite</a></p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>Images</b>
+      </div>
+      <div class="concept-description">
+        < img> = images<br>
+          <em>example</em>:
+          < img src="url" alt="text"> FYI-"text" is required for broken requests or blind people (no closing tag)</p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>Whitespace</b>
+      </div>
+      <div class="concept-description">
+        <b>1.Line tag</b>; puts a break in a single line< br>
+           = break void; other tags(a, span, br, img, and Strong)<br>  
+        <b>2.Block tag</b>; creates a group of lines in a block
+           < p> = paragraph; other block tags(div, p, and form)</p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>Span & Div</b>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title">
+        <b>HTML Document Blocks</b>
+      </div>
+      <div class="concept-description">
+          < !Doctype HTML> <em>Doctype</em><br>
+          < html><br>  
+          < head> <em>< title></em>TITLE
+          < /<em>title></em>
+          < /head> {head, metadata, javascript, css}<br>        
+          < body> <em>< b>content< /b></em>
+          < /body> {Body}<br> 
+          < /html></p>
+                        
+      </div>
+    </div>
+    <div>
+      <h2><div class="lesson"><p>Lesson 2</p></h2>
+
+      <div class="concept">
+        <div class="concept-title">
+          <p><b>Parts of the Page</b>-<em>Developer Tools</em></p>
+        </div>
+        <div class="concept-description">
+          <b>HTML</b> is the structue of the page. Language-syntax and rules i.e. the framework of a house.<br>
+          <b>CSS</b> is the style of the page. Provides for color, style, position of content i.e. wall paper, appliances, furniture, colorings etc.<br>
+          <b>Javascript</b> is the interactive parts of the page. i.e. garage door opener, TV remote, light switch etc.<br>  
+        </div>
+      </div>
+
+      <div class="concept">
+        <div class="concept-title">
+          <em><b>HTML</b></em><br>
+          <b>Rules for websites:</b><br>
+        </div>
+        <div class="concept-description">
+          Web pages are a series of <em>Boxes</em> placed on a grid.
+          <br> Each box has element(s).
+          <br> All elements are rectangular.
+          <br> Elements are arranged in a <em>tree</em> like structure
+          <br> If you go deep enough into structure the text seen on the page is visible.</p>
+        </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">
+          <b>Example of a Tree</b>
+        </div>
+        <div> <img src="FullSizeRender.jpg" alt=<em>"tree structure image"</em>
+        </div>
+      </div>
+    </div>
+    <h2><div class="lesson"><p>Lesson 3</p></h2>
+    <div class="concept">
+      <div class="concept-title">
+        <b>CSS and Avoiding Repetition</b>
+      </div>
+      <div class="concept-description">
+        <p><b>Avoiding Errors:</b> When programmers <em>don't</em> avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes
+          with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.</p>
+
+        <p><b>Search and Replace</b> You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find (or match, in CSS terminology), and then what you want to do with it, or what property values to
+          replace with different ones.</p>
+
+        <p><b>Order Matters</b> It also matters where you define the rules and in what order they are applied. Styles can be defined in different places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+          <br>
+
+          <b>1.</b>the default style of a browser (different browsers have slightly different styles)
+          <br>
+          <b>2.</b>stylesheet in a separate file (this is what you will be mostly using)
+          <br>
+          <b>3.</b>stylesheet inside HTML (this can be done for small projects but is not ideal)
+          <br>
+          <b>4.</b>inline style in an element (this can also be done but should be avoided)
+          <br>
+        </p>
+
+        <p><b>Specifics Matter</b> "Cascading" means that rules are applied not only to the elements they directly match, but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, the more
+          specific rule takes effect.</p>
+      </div>
+    </div>
+</body>
+</html>  
+                  
